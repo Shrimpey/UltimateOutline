@@ -79,6 +79,7 @@ Shader "Outlined/UltimateOutline"
 
 		//Second outline
 		Pass{
+			Blend SrcAlpha OneMinusSrcAlpha
 			ZWrite Off
 			Cull Back
 			CGPROGRAM
